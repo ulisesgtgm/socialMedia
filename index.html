@@ -1,84 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
-        <link rel="icon" href="https://github.githubassets.com/favicons/favicon-dark.svg">
-        <title>Social Media</title>
-        <link rel="stylesheet" href="./styles.css">
-    </head>
-<body>
-    <header>
-        <div class="share-button" link="https://ulisesgezx.github.io/">
-            <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perfil y redes sociales de Ulises Gutiérrez (@ulisesgezx), Digital Designer & Programmer en México.">
+    <title>@ulisesgezx</title>
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="https://github.githubassets.com/favicons/favicon-dark.svg">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+      <span class="navbar__brand">@ulisesgezx</span>
+    </nav>
+
+    <main class="container">
+      <!-- Avatar -->
+      <div class="image-container">
+        <img
+          src="https://avatars.githubusercontent.com/u/105885240?v=4"
+          alt="Avatar de Ulises Gutiérrez"
+        >
+      </div>
+
+      <!-- Información del usuario -->
+      <h1 class="name">Ulises Gutiérrez</h1>
+      <h2 class="location">
+        México
+        <img
+          src="https://www.svgrepo.com/show/405549/flag-for-flag-mexico.svg"
+          alt="Bandera de México"
+          width="25"
+          height="15"
+        >
+      </h2>
+      <h3 class="role">Digital Designer &amp; Programmer</h3>
+
+      <!-- Enlaces a redes sociales -->
+      <div class="tiles">
+        <a
+          class="tile tile--website"
+          id="website"
+          href="https://ulisesgezx.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255, 1);"><path d="M2.002 9.63c-.023.411.207.794.581.966l7.504 3.442 3.442 7.503c.164.356.52.583.909.583l.057-.002a1 1 0 0 0 .894-.686l5.595-17.032c.117-.358.023-.753-.243-1.02s-.66-.358-1.02-.243L2.688 8.736a1 1 0 0 0-.686.894zm16.464-3.971-4.182 12.73-2.534-5.522a.998.998 0 0 0-.492-.492L5.734 9.841l12.732-4.182z"></path></svg>
+          </div>
+          <p>Website</p>
+          <div class="tile__share-button" link="https://ulisesgezx.github.io/" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41a2 2 0 0 0 2.83 0l3.29-3.29a2 2 0 0 0-2.83-2.83l-2.29 2.29a1 1 0 0 1-1.41-1.41l2.29-2.29a4 4 0 0 1 5.66 5.66l-3.29 3.29a4 4 0 0 1-5.66 0 2 2 0 0 1 .01-2.82z"/><path d="M13.41 10.59a2 2 0 0 0-2.83 0l-3.29 3.29a2 2 0 0 0 2.83 2.83l2.29-2.29a1 1 0 0 1 1.41 1.41l-2.29 2.29a4 4 0 0 1-5.66-5.66l3.29-3.29a4 4 0 0 1 5.66 0 2 2 0 0 1-.01 2.82z"/></svg>
+          </div>
+        </a>
+
+        <a
+          class="tile tile--facebook"
+          id="facebook"
+          href="https://www.facebook.com/ulisesgezx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
+          </div>
+          <p>Facebook</p>
+          <div class="tile__share-button" link="https://www.facebook.com/ulisesgezx" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41a2 2 0 0 0 2.83 0l3.29-3.29a2 2 0 0 0-2.83-2.83l-2.29 2.29a1 1 0 0 1-1.41-1.41l2.29-2.29a4 4 0 0 1 5.66 5.66l-3.29 3.29a4 4 0 0 1-5.66 0 2 2 0 0 1 .01-2.82z"/><path d="M13.41 10.59a2 2 0 0 0-2.83 0l-3.29 3.29a2 2 0 0 0 2.83 2.83l2.29-2.29a1 1 0 0 1 1.41 1.41l-2.29 2.29a4 4 0 0 1-5.66-5.66l3.29-3.29a4 4 0 0 1 5.66 0 2 2 0 0 1-.01 2.82z"/></svg>
+          </div>
+        </a>
+
+        <a
+          class="tile tile--vk"
+          id="vk"
+          href="https://vk.com/ulisesgezx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 24 24"><path d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.558 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.51.513-.743.675-1.021.675-.139 0-.341-.162-.341-.627V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.558.258-.558.504 0 .528.79.65.871 2.138v3.228c0 .707-.127.836-.407.836-.743 0-2.551-2.729-3.624-5.853-.209-.607-.42-.852-.98-.852H2.752c-.627 0-.752.295-.752.619 0 .582.743 3.462 3.461 7.271 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.966c0-.626.133-.752.574-.752.324 0 .882.164 2.183 1.417 1.486 1.486 1.732 2.153 2.567 2.153h2.192c.626 0 .939-.313.759-.931-.197-.615-.907-1.51-1.849-2.569-.512-.604-1.277-1.254-1.51-1.579-.325-.419-.231-.604 0-.976.001.001 2.672-3.761 2.95-5.04"/></svg>
+          </div>
+          <p>VK</p>
+          <div class="tile__share-button" link="https://vk.com/ulisesgezx" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41a2 2 0 0 0 2.83 0l3.29-3.29a2 2 0 0 0-2.83-2.83l-2.29 2.29a1 1 0 0 1-1.41-1.41l2.29-2.29a4 4 0 0 1 5.66 5.66l-3.29 3.29a4 4 0 0 1-5.66 0 2 2 0 0 1 .01-2.82z"/><path d="M13.41 10.59a2 2 0 0 0-2.83 0l-3.29 3.29a2 2 0 0 0 2.83 2.83l2.29-2.29a1 1 0 0 1 1.41 1.41l-2.29 2.29a4 4 0 0 1-5.66-5.66l3.29-3.29a4 4 0 0 1 5.66 0 2 2 0 0 1-.01 2.82z"/></svg>
+          </div>
+        </a>
+
+        <a
+          class="tile tile--instagram"
+          id="instagram"
+          href="https://www.instagram.com/ulisesgezx/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg>
+          </div>
+          <p>Instagram</p>
+          <div class="tile__share-button" link="https://www.instagram.com/ulisesgezx/" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41a2 2 0 0 0 2.83 0l3.29-3.29a2 2 0 0 0-2.83-2.83l-2.29 2.29a1 1 0 0 1-1.41-1.41l2.29-2.29a4 4 0 0 1 5.66 5.66l-3.29 3.29a4 4 0 0 1-5.66 0 2 2 0 0 1 .01-2.82z"/><path d="M13.41 10.59a2 2 0 0 0-2.83 0l-3.29 3.29a2 2 0 0 0 2.83 2.83l2.29-2.29a1 1 0 0 1 1.41 1.41l-2.29 2.29a4 4 0 0 1-5.66-5.66l3.29-3.29a4 4 0 0 1 5.66 0 2 2 0 0 1-.01 2.82z"/></svg>
+          </div>
+        </a>
+
+        <a
+          class="tile tile--tiktok"
+          id="tiktok"
+          href="https://www.tiktok.com/@ulisesgezx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 3 3 0 0 1 .88.13V9.4a7 7 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a5 5 0 0 1-1-.1z"/></svg>
+          </div>
+          <p>TikTok</p>
+          <div class="tile__share-button" link="https://www.tiktok.com/@ulisesgezx" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41a2 2 0 0 0 2.83 0l3.29-3.29a2 2 0 0 0-2.83-2.83l-2.29 2.29a1 1 0 0 1-1.41-1.41l2.29-2.29a4 4 0 0 1 5.66 5.66l-3.29 3.29a4 4 0 0 1-5.66 0 2 2 0 0 1 .01-2.82z"/><path d="M13.41 10.59a2 2 0 0 0-2.83 0l-3.29 3.29a2 2 0 0 0 2.83 2.83l2.29-2.29a1 1 0 0 1 1.41 1.41l-2.29 2.29a4 4 0 0 1-5.66-5.66l3.29-3.29a4 4 0 0 1 5.66 0 2 2 0 0 1-.01 2.82z"/></svg>
+          </div>
+        </a>
+
+        <a
+          class="tile tile--x"
+          id="x"
+          href="https://x.com/ulisesgezx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 24 24"><path d="M13.68 10.62 20.24 3h-1.55L13 9.62 8.45 3H3.19l6.88 10.01L3.19 21h1.55l6.01-6.99 4.8 6.99h5.24l-7.13-10.38Zm-2.13 2.47-.7-1-5.54-7.93H7.7l4.47 6.4.7 1 5.82 8.32H16.3z"></path></svg>
+          </div>
+          <p>X</p>
+          <div class="tile__share-button" link="https://x.com/ulisesgezx" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41a2 2 0 0 0 2.83 0l3.29-3.29a2 2 0 0 0-2.83-2.83l-2.29 2.29a1 1 0 0 1-1.41-1.41l2.29-2.29a4 4 0 0 1 5.66 5.66l-3.29 3.29a4 4 0 0 1-5.66 0 2 2 0 0 1 .01-2.82z"/><path d="M13.41 10.59a2 2 0 0 0-2.83 0l-3.29 3.29a2 2 0 0 0 2.83 2.83l2.29-2.29a1 1 0 0 1 1.41 1.41l-2.29 2.29a4 4 0 0 1-5.66-5.66l3.29-3.29a4 4 0 0 1 5.66 0 2 2 0 0 1-.01 2.82z"/></svg>
+          </div>
+        </a>
+      </div>
+
+      <!-- Último video de YouTube -->
+      <section class="video-section">
+        <h2 class="video-section__title">Último video</h2>
+        <div class="video-section__wrapper">
+          <iframe
+            class="video-section__player"
+            src="https://www.youtube.com/embed/videoseries?list=UUv_EsPUR2xiW3i2pK4xhtGg"
+            title="Último video de YouTube de @ulisesgezx"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
-    </header>
-    <div class="container">
-        <div class="image-container">
-            <img src="https://avatars.githubusercontent.com/u/105885240?v=4" alt="Ulises Gutierrez Avatar">
-        </div>
-        <h1>Ulises Gutiérrez</h1>
-        <h2>México <img src="https://www.svgrepo.com/show/405549/flag-for-flag-mexico.svg" alt="Mexican Flag" width="25" height="15"></h2>
-        <h3>Digital Designer & Programmer</h3>
-        <a id="website" class="tile" href="https://ulisesgezx.github.io/" target="_blank" rel="noopener noreferrer">
-            <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255, 1);"><path d="M2.002 9.63c-.023.411.207.794.581.966l7.504 3.442 3.442 7.503c.164.356.52.583.909.583l.057-.002a1 1 0 0 0 .894-.686l5.595-17.032c.117-.358.023-.753-.243-1.02s-.66-.358-1.02-.243L2.688 8.736a1 1 0 0 0-.686.894zm16.464-3.971-4.182 12.73-2.534-5.522a.998.998 0 0 0-.492-.492L5.734 9.841l12.732-4.182z"></path></svg>
-            </div>
-            <p>Website</p>
-            <div class="tile-share-button" link="https://ulisesgezx.github.io/">
-                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
-            </div>
-        </a>
-        <a id="facebook" class="tile" href="https://www.facebook.com/ulisesgezx" target="_blank" rel="noopener noreferrer">
-            <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
-            </div>
-            <p>Facebook</p>
-            <div class="tile-share-button" link="https://www.facebook.com/ulisesgezx">
-                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
-            </div>
-        </a>
-        <a id="vk" class="tile" href="https://vk.com/ulisesgezx" target="_blank" rel="noopener noreferrer">
-            <div class="icon">
-                <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 24 24" > <!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free--> <path d="M21.579 6.855c.14-.465 0-.806-.662-.806h-2.193c-.558 0-.813.295-.953.619 0 0-1.115 2.719-2.695 4.482-.51.513-.743.675-1.021.675-.139 0-.341-.162-.341-.627V6.855c0-.558-.161-.806-.626-.806H9.642c-.348 0-.558.258-.558.504 0 .528.79.65.871 2.138v3.228c0 .707-.127.836-.407.836-.743 0-2.551-2.729-3.624-5.853-.209-.607-.42-.852-.98-.852H2.752c-.627 0-.752.295-.752.619 0 .582.743 3.462 3.461 7.271 1.812 2.601 4.363 4.011 6.687 4.011 1.393 0 1.565-.313 1.565-.853v-1.966c0-.626.133-.752.574-.752.324 0 .882.164 2.183 1.417 1.486 1.486 1.732 2.153 2.567 2.153h2.192c.626 0 .939-.313.759-.931-.197-.615-.907-1.51-1.849-2.569-.512-.604-1.277-1.254-1.51-1.579-.325-.419-.231-.604 0-.976.001.001 2.672-3.761 2.95-5.04"/></svg>
-            </div>
-            <p>VK</p>
-            <div class="tile-share-button" link="https://vk.com/ulisesgezx">
-                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
-            </div>
-        </a>
-        <a id="instagram" class="tile" href="https://www.instagram.com/ulisesgezx/" target="_blank" rel="noopener noreferrer">
-            <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path></svg>
-            </div>
-            <p>Instagram</p>
-            <div class="tile-share-button" link="https://www.instagram.com/ulisesgezx/">
-                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
-            </div>
-        </a>
-        <a id="tiktok" class="tile" href="https://www.tiktok.com/@ulisesgezx" target="_blank" rel="noopener noreferrer">
-            <div class="icon">
-                <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50"  fill="currentColor" viewBox="0 0 24 24" ><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 3 3 0 0 1 .88.13V9.4a7 7 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a5 5 0 0 1-1-.1z"/></svg>            </div>
-            <p>TikTok</p>
-            <div class="tile-share-button" link="https://www.tiktok.com/@ulisesgezx">
-                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
-            </div>
-        </a>
-        <a id="x" class="tile" href="https://x.com/ulisesgezx" target="_blank" rel="noopener noreferrer">
-            <div class="icon">
-                <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 24 24" > <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free--> <path d="M13.68 10.62 20.24 3h-1.55L13 9.62 8.45 3H3.19l6.88 10.01L3.19 21h1.55l6.01-6.99 4.8 6.99h5.24l-7.13-10.38Zm-2.13 2.47-.7-1-5.54-7.93H7.7l4.47 6.4.7 1 5.82 8.32H16.3z"></path> </svg>
-            </div>
-            <p>X</p>
-            <div class="tile-share-button" link="https://x.com/ulisesgezx">
-                <svg width="16" height="16" viewBox="0 0 16 16" enable-background="new 0 0 24 24" class="sc-gKsewC iPWGYb"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.6464 3.85347L11 4.20702L11.7071 3.49992L11.3536 3.14636L8.35355 0.146362H7.64645L4.64645 3.14636L4.29289 3.49992L5 4.20702L5.35355 3.85347L7.5 1.70702V9.49992V9.99992H8.5V9.49992V1.70702L10.6464 3.85347ZM1 5.49994L1.5 4.99994H4V5.99994H2V14.9999H14V5.99994H12V4.99994H14.5L15 5.49994V15.4999L14.5 15.9999H1.5L1 15.4999V5.49994Z" fill="currentColor"></path></svg>
-            </div>
-        </a>
-    </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span class="footer__text">@ulisesgezx</span>
+    </footer>
+
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
